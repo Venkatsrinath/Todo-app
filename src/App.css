@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+*{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo_app{
+  background-color: aqua;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: darkseagreen;
 }
+.input_container{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 50px;
+  align-items: center;
+  width: 65%;
+  margin-left: 80px;
+  /* margin-top: 20px; */
 
-.App-link {
-  color: #61dafb;
+
 }
+/* .main_container{
+  display: flex;
+  justify-content: space-around;
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 260px;
+  
+}
+.div_map{
+  /* height: 100px;
+  width: 90%;
+ border: 2px solid black;
+ margin: 10px; */
+ display: flex;
+ justify-content: space-around;
+ margin-top: 20px;
+
+
+/* background-color: black; */
+}
+.section_btn{
+  display: flex;
+  justify-content:space-around;
+  width:150px;
+  height: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  /* width: 5px;
+  height: 5px; */
+}
+.delete_btn{
+  margin-left: 60px;
+  background-color: red;
+  margin-right: 20px;
+
+}
+.done_btn{
+  background-color: blueviolet;
+  /* border-radius: 2px; */
+}
+.edit_btn{
+  margin-left: 50px;
+  background-color: green;
+}
+.checked_list_item{
+  background-color:aqua;
+}
+.list_item{
+  background-color:none;
+   height: 100px;
+  width: 90%;
+ border: 2px solid black;
+ margin: 30px;
+
+  
+}
+.button1{
+display: flex;
+justify-content: space-around;
+align-content: space-around;
+margin-left: 150px;
+margin-top: 2px;
+margin-bottom: 20px;
 }
